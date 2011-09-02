@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyMe.Domain", "LonelyMe.Domain\LonelyMe.Domain.csproj", "{9B08CE5C-11B8-4B2C-9082-F3A399589B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyMe.Droid.App", "LonelyMe.Droid.App\LonelyMe.Droid.App.csproj", "{47544875-2CB2-4C20-BDD9-5199DB56B3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyMe.Droid.Domain", "LonelyMe.Droid.Domain\LonelyMe.Droid.Domain.csproj", "{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyMe.WP7.App", "LonelyMe.WP7.App\LonelyMe.WP7.App.csproj", "{040CBAED-FA94-4283-961B-4F7A28F28D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyMe.WP7.Domain", "LonelyMe.WP7.Domain\LonelyMe.WP7.Domain.csproj", "{24DB19AC-B36A-4AD2-AA21-49127DBAC019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked Domains", "Linked Domains", "{B6D17C8D-BCE3-4B93-85DD-EA15CD467E1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B08CE5C-11B8-4B2C-9082-F3A399589B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B08CE5C-11B8-4B2C-9082-F3A399589B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B08CE5C-11B8-4B2C-9082-F3A399589B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B08CE5C-11B8-4B2C-9082-F3A399589B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47544875-2CB2-4C20-BDD9-5199DB56B3C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040CBAED-FA94-4283-961B-4F7A28F28D67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{24DB19AC-B36A-4AD2-AA21-49127DBAC019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DB19AC-B36A-4AD2-AA21-49127DBAC019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DB19AC-B36A-4AD2-AA21-49127DBAC019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DB19AC-B36A-4AD2-AA21-49127DBAC019}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C88BBDD-DB04-4F7D-B21F-D8DB1E8BC7B9} = {B6D17C8D-BCE3-4B93-85DD-EA15CD467E1F}
+		{24DB19AC-B36A-4AD2-AA21-49127DBAC019} = {B6D17C8D-BCE3-4B93-85DD-EA15CD467E1F}
+	EndGlobalSection
+EndGlobal
