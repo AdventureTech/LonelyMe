@@ -1,0 +1,1 @@
+Install the Project Linker extension if you are going to make Domain changes.
